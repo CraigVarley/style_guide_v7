@@ -1,0 +1,5 @@
+// lightens color by 20% for buttons
+
+@function hov-light($base) {
+    @return lighten($base,20%);
+}

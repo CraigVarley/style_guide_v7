@@ -10,20 +10,35 @@
 
 .default {
   background-color: $color-link;
+    &:hover {
+      background-color:hov-light($color-link);
+    }
 }
 
 .error {
   background-color:$color-pink;
+  &:hover {
+    background-color:hov-light($color-pink);
+  }
 }
 
 .info {
-  background-color: #927bc1;
+  background-color: $color-purple;
+  &:hover {
+    background-color:hov-light($color-purple);
+  }
 }
 
 .success {
-  background-color: #63cc82;
+  background-color: $color-green-light;
+  &:hover {
+    background-color:hov-light($color-green-light);
+  }
 }
 
 .warning {
-  background-color: #fd7856;
+  background-color: $color-red;
+  &:hover {
+    background-color:hov-light($color-red);
+  }
 }
